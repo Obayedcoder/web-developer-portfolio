@@ -31,7 +31,8 @@
     padding:18px 35px;
     border-radius: 5px;   
     font-size: 20px; 
-    border:none;                
+    border:none;   
+    cursor: pointer;             
 }
 .section-title{
     font-size: 35px;
@@ -156,3 +157,76 @@ main section{
 .skill-description{
     font-size: 16px;
 }
+.text{
+    text-align: center;
+}
+/*resume styles*/
+.my{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.resume-2{
+    display:flex;
+    gap:24px;
+    margin-bottom: 10px;
+}
+
+.edu-title, .exp-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.edu-title2, .exp-title2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume-download{
+    margin-top:50px;
+}
+/*footer styles*/
+.footer{
+    margin-bottom:130px;
+    padding:130px 230px;
+    display:flex;
+    gap:100px;
+}
+.footer-column{
+    margin-bottom:30px;
+    width:50%;
+    padding:0px 100px;
+  }
+  footer input[type="text"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display:block;
+    width:100%;
+    margin-bottom: 20px;
+    padding:10px 20px;
+    border:none;
+  }
+  footer input[type="email"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display:block;
+    width:100%;
+     margin-bottom: 20px;
+     padding:10px 20px;
+     border:none;
+  }
+   footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display:block;
+    width:100%;
+     margin-bottom: 40px;
+     padding:10px 20px;
+     border:none;
+  }
+ .margin{
+    margin-bottom: 40px;
+  }
